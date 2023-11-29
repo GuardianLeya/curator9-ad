@@ -1,0 +1,6 @@
+[program:curator9-ad]
+command=python3 /home/curator9/curator9-ad/main.py
+autostart=true
+autorestart=true
+stderr_logfile=/home/curator9/curator9-ad/test.err.log
+stdout_logfile=/home/curator9/curator9-ad/test.out.log
